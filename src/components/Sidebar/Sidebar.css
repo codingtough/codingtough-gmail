@@ -1,0 +1,26 @@
+.sidebar {
+   flex: 0.2;
+   max-width: 30rem;
+   padding-right: 2rem;
+}
+
+.sidebar__compose {
+   margin-top: 1.5rem !important;
+   margin-left: 1.5rem !important;
+   margin-bottom: 1.5rem !important;
+   text-transform: capitalize !important;
+   color: gray;
+   padding: 0.8rem 1.7rem !important;
+   border-radius: 999px !important;
+   box-shadow: 0 1px 5px -2px rgba(0,0,0, 0.45);
+   font-size: 1.5rem !important;
+}
+
+.sidebar__compose:hover {
+   /* box-shadow: 0 1px 5px -2px rgba(0,0,0, 0.45) */
+}
+
+.sidebar__footer {
+   display: flex;
+   justify-content: center;
+}

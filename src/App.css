@@ -1,0 +1,13 @@
+:root {
+   --headerHeight: 10vh;
+   --appBodyHeight: 88vh;
+}
+
+.app {
+   height: 100vh;
+}
+
+.app__body {
+   display: flex;
+   height: var(--appBodyHeight);
+}

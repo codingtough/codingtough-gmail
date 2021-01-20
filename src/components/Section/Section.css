@@ -1,0 +1,23 @@
+.section {
+   display: flex;
+   align-items: center;
+   /* justify-content: flex-start; */
+   padding: 1.5rem;
+   min-width: 20rem;
+   cursor: pointer;
+   color: #ccc;
+   border-width: 0 !important;
+}
+
+
+.section:hover,
+.section--selected {
+   background-color: whitesmoke;
+   border-width: 3px !important;
+}
+
+.section > h4 {
+   margin-left: 1.5rem;
+   font-size: 1.5rem;
+   text-transform: capitalize;
+}

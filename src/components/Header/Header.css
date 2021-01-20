@@ -1,0 +1,78 @@
+.header {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   border: 1px solid whitesmoke;
+   height: var(--headerHeight);
+   padding-left: 1rem;
+}
+
+.header__left {
+   display: flex;
+   align-items: center;
+   flex: 0.2;
+}
+
+.header__left > img {
+   object-fit: contain;
+   height: var(--headerHeight);
+   margin-left: 5px;
+}
+
+.header__middle {
+   display: flex;
+   align-items: center;
+   justify-content: flex-start;
+   flex: 0.6;
+   background-color: whitesmoke;
+   padding: 0 1rem;
+   margin-left: 2rem;
+   border-radius: 1rem;
+}
+
+.header__middle > .MuiSvgIcon-root {
+   color: gray;
+}
+
+.header__middle > input {
+   border: none;
+   width: 100%;
+   padding: 1.5rem 1rem;
+   font-size: 1.6rem;
+   background-color: inherit;
+   color: #333;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.header__middle > input::-webkit-input-placeholder { /* Edge */
+   font-size: 1.8rem;
+   color: #ccc;
+}
+
+.header__middle > input:-ms-input-placeholder { /* Internet Explorer */
+   font-size: 1.8rem;
+   color: #ccc;
+}
+
+.header__middle > input::placeholder {
+   font-size: 1.8rem;
+   color: #ccc;
+}
+
+.header__right {
+   display: flex;
+   align-items: center;
+   justify-content: flex-end;
+   padding-right: 2rem;
+   flex: 0.2;
+}
+
+.header__right > .MuiAvatar-root {
+   width: 3rem !important;
+   height: 3rem !important;
+   margin-left: 1rem;
+}
+
+.header__rightAvatar {
+   cursor: pointer;
+}
